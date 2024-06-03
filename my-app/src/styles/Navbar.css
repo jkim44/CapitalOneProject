@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: start;
+  text-align: left;
+  flex-wrap: nowrap;
+}
+
+.navbar-ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 2rem;
+}
+
+.navbar-li {
+  margin-right: 20px;
+}

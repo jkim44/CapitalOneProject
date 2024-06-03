@@ -1,0 +1,120 @@
+.card-left {
+  width: 20%;
+  margin-left: 6%;
+  text-align: center;
+}
+
+.card-headers {
+  background-color: #004977 !important;
+  color: white !important;
+  border-color: #004977 !important;
+  margin: 0;
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+
+.card-body-1 {
+  background-color: #004977;
+  color: white !important;
+  font-size: larger;
+  padding: 0rem 1rem 0.5rem 1rem !important;
+  /* height: 1%!important; */
+}
+
+.card-body-2 {
+  background-color: grey;
+  font-weight: bolder;
+  font-size: large;
+  padding: 0.5rem 0rem !important;
+}
+
+.card-body-3 {
+  height: 100% !important;
+}
+
+.card-right {
+  width: 20%;
+  margin-right: 7%;
+  border: solid;
+  border-width: 1.5px;
+  border-color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.button-div {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 10%;
+}
+
+.button {
+  margin-top: 5rem;
+  width: fit-content;
+  background-color: white;
+  border-width: 0 !important;
+  padding: 0 !important;
+}
+
+.credit-card {
+  border: solid;
+  border-width: 1.5px;
+  border-color: rgb(0, 0, 0);
+  background-color: #004977;
+  color: white;
+  display: flex;
+  margin-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+.credit-card-button {
+  margin: 20% 0%;
+  width: 7rem;
+  height: 4rem;
+  color: #004977;
+  font-weight: bold !important;
+}
+
+.send-money {
+  border: solid;
+  border-width: 1.5px;
+  border-color: rgb(0, 0, 0);
+  background-color: #004977;
+}
+
+.payment-methods {
+  background-color: #004977;
+}
+
+.trans-button {
+  font-weight: bold !important;
+  color: #004977 !important;
+  margin: 7px;
+  width: 4rem;
+  padding: 0 !important;
+}
+
+.deposit-money {
+  margin-top: 2rem;
+  border: solid;
+  border-width: 1.5px;
+  border-color: rgb(0, 0, 0);
+}
+
+.deposit-button {
+  font-weight: bold !important;
+  color: #004977 !important;
+  width: 80%;
+  margin: 0.5rem 10%;
+}
+
+.card-header-clickable {
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-header-clickable:hover {
+  background-color: #0056b3; /* Lighten the blue a bit on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a slight shadow to lift the card */
+}
